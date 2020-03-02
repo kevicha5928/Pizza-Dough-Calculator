@@ -1,0 +1,28 @@
+.Paper {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.leftpane {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputPaper {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.label {
+  text-align: left;
+  flex: 2;
+}
+.input {
+  flex: 3;
+}
